@@ -1,82 +1,42 @@
 # Alzhemier-Classification
 
-Instructions: Click on the raw button in the upper right hand corner of this box. Copy and paste the template into the README.md document on your github. Fill in the titles, information and links where prompted! Feel free to stray a bit to suit your project but try to stick to the format as closely as possible for consistency across DSWG projects.
-Project Name
+This project is a part of my personal portafolio. 
 
-This project is a part of the Data Science Working Group at Code for San Francisco. Other DSWG projects can be found at the main GitHub repo.
--- Project Status: [Active, On-Hold, Completed]
-Project Intro/Objective
+#### -- Project Status: [Completed]
 
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
-Partner
+## Project Intro/Objective
+The purpose of this project is to create a model capable of identify Alzheimer patients from brain data. The main goal is to train a model with high sensitivity. 
 
-    [Name of Partner organization/Government department etc..]
-    Website for partner
-    Partner contact: [Name of Contact], [slack handle of contact if any]
-    If you do not have a partner leave this section out
 
-Methods Used
+### Methods Used
+* Principal Component Analysis (PCA)
+* Machine Learning
+* Support Vector Machines (SVM)
+* Data Visualization
+* Linear Algebra
+* Grid Search
+* Data Normalization
 
-    Inferential Statistics
-    Machine Learning
-    Data Visualization
-    Predictive Modeling
-    etc.
+### Technologies
+* Python
+* Pandas
+* Matplotlib, seaborn
+* Pandas, numpy
+* Grid Search
+* ROC Curve, Confussion matrix
 
-Technologies
+## Project Description
+Using the volume data from 84 brain areas, I trained a SVM model to classify adults wether they had or they have not Alzheimer disease. To reduce the number of variables, I used PCA and I ended with 14 main components. From this data, I trained a model that maximized sensitivity and I ended with a model with 90% sensitivity. 
 
-    R
-    Python
-    D3
-    PostGres, MySql
-    Pandas, jupyter
-    HTML
-    JavaScript
-    etc.
 
-Project Description
+## Contributors
 
-(Provide more detailed overview of the project. Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing? Feel free to number or bullet point things here)
-Needs of this project
+**Data Scientist: [Angel Bujalance Gómez](https://github.com/abgom)
 
-    frontend developers
-    data exploration/descriptive statistics
-    data processing/cleaning
-    statistical modeling
-    writeup/reporting
-    etc. (be as specific as possible)
 
-Getting Started
+## Contact
+* Mail: angelbujalanceg@gmail.com
+* Phone: +34 620079996
+* LinkedIn: www.linkedin.com/in/angelbujalanceg/
 
-    Clone this repo (for help see this tutorial).
-
-    Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    If using offline data mention that and how they may obtain the data from the froup)
-
-    Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-
-    etc...
-
-If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here
-
-    Follow setup [instructions](Link to file)
-
-Featured Notebooks/Analysis/Deliverables
-
-    Notebook/Markdown/Slide Deck Title
-    Notebook/Markdown/Slide DeckTitle
-    Blog Post
-
-Contributing DSWG Members
-
-Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)
-Other Members:
-Name 	Slack Handle
-[Full Name](https://github.com/[github handle]) 	@johnDoe
-[Full Name](https://github.com/[github handle]) 	@janeDoe
-Contact
-
-    If you haven't joined the SF Brigade Slack, you can do that here.
-    Our slack channel is #datasci-projectname
-    Feel free to contact team leads with any questions or if you are interested in contributing!
+* Feel free to contact me with any questions or if you are interested in the project!
