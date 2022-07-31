@@ -26,7 +26,7 @@ The purpose of this project is to create a model capable of identify Alzheimer p
 * ROC Curve, Confussion matrix
 
 ## Project Description
-Using the volume data from 84 brain areas, I trained a SVM model to classify adults wether they had or they have not Alzheimer disease. To reduce the number of variables, I used PCA and I ended with 14 main components. From this data, I trained a model that maximized sensitivity and I ended with a model with 90% sensitivity. 
+Using the volume data from 84 brain areas, I trained a SVM model to classify adults whether they had or they had not Alzheimer disease. To reduce the number of variables, I used PCA and I ended with 14 main components. From this data, I trained a model that maximized sensitivity and I ended with a model with 90% sensitivity. 
 
 
 ## Contributors
