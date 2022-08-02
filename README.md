@@ -5,7 +5,7 @@ This project is a part of my personal portafolio.
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is to create a model capable of identify Alzheimer patients from brain data. The main goal is to train a model with high sensitivity. 
+The purpose of this project is to create a model capable of identifying Alzheimer patients from brain data. The main goal is to train a model with high sensitivity to be sure that most of the patients with Alzheimer receive the correct diagnosis. 
 
 
 ### Methods Used
